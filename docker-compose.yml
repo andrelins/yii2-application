@@ -1,0 +1,7 @@
+scuptel:
+  build: . 
+  tty: true
+  volumes:
+     - .:/var/www/html
+  ports: 
+    - 8888:80

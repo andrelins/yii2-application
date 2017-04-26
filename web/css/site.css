@@ -1,0 +1,223 @@
+html,
+body {
+    height: 100%;
+}
+
+/* ---------------------------------
+    Menu Top
+------------------------------------*/
+
+.navbar-inverse {
+    background-color: #273b46;
+    border-color: #273b46;
+    border-bottom: 5px solid #EC7F3E;
+}
+
+.navbar-inverse .navbar-brand {
+    color: #a0d4eb;
+}
+
+.navbar-inverse .navbar-nav > .active > a, 
+.navbar-inverse .navbar-nav > .active > a:hover, 
+.navbar-inverse .navbar-nav > .active > a:focus {
+    background-color: #1c262b;
+    color: #fff;
+}
+
+/* ---------------------------------
+    Content
+------------------------------------*/
+
+.wrap {
+    min-height: 100%;
+    height: auto;
+    margin: 0 auto -60px;
+    padding: 0 0 60px;
+}
+
+.wrap > .container {
+    padding: 70px 15px 20px;
+}
+
+/* ---------------------------------
+    Banner
+------------------------------------*/
+
+.banner {
+    overflow: hidden;
+    margin-bottom: 10px;
+}
+
+.banner img {
+    width: 100%;
+}
+
+/* ---------------------------------
+    Menu Internal
+------------------------------------*/
+
+#menu {
+    border: 1px solid #f9f9f9;
+    margin-bottom: 10px;
+}
+
+#menu header, .body-content header {
+    padding: 20px;
+    font-weight: bold;
+    background: #3993CB;
+    color: #fff;
+}
+
+#menu ul li a {
+    color: #666;
+    border-radius: 0;
+}
+#menu ul li.active a {
+    background: #EC7F3E;
+    color: #fff;
+}
+
+/* ---------------------------------
+    Tab Content
+------------------------------------*/
+
+.tabpanel {
+    padding: 10px;
+}
+
+.body-content header {
+    background: #273b46;
+    text-transform: uppercase;
+    margin-bottom: 10px;
+}
+
+/* ---------------------------------
+    Plans
+------------------------------------*/
+
+.plan {
+    border: 1px solid #f9f9f9;
+    height: 100px;
+    line-height: 100px;
+    position: relative;
+    margin-bottom: 10px;
+}
+
+.plan .plan-content {
+    padding: 0 10px;
+}
+
+.plan .title {
+    font-size: 1.3em;
+    font-weight: bold;
+    color: #fff;
+    text-shadow: #222 0px 0px 10px;
+}
+
+.plan button {
+    position: absolute;
+    right: 10px;
+    top: 35px;
+}
+
+.plan.plan-30 {
+    background: rgb(178,225,255);
+    background: -moz-linear-gradient(left, rgba(178,225,255,1) 0%, rgba(102,182,252,1) 100%);
+    background: -webkit-linear-gradient(left, rgba(178,225,255,1) 0%,rgba(102,182,252,1) 100%);
+    background: linear-gradient(to right, rgba(178,225,255,1) 0%,rgba(102,182,252,1) 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#b2e1ff', endColorstr='#66b6fc',GradientType=1 );
+}
+
+.plan.plan-30 .plan-content {
+    background-size: 20%;
+    background-position: -2px -3px;
+}
+
+.plan.plan-30 button {
+    color: #fff;
+    background-color: #3f77a7;
+    border-color: #3f77a7;
+}
+
+.plan.plan-60 {
+    background: rgb(255,214,94);
+    background: -moz-linear-gradient(left, rgba(255,214,94,1) 0%, rgba(254,191,4,1) 100%);
+    background: -webkit-linear-gradient(left, rgba(255,214,94,1) 0%,rgba(254,191,4,1) 100%);
+    background: linear-gradient(to right, rgba(255,214,94,1) 0%,rgba(254,191,4,1) 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffd65e', endColorstr='#febf04',GradientType=1 );
+}
+
+.plan.plan-60 button {
+    color: #fff;
+    background-color: #d6a71b;
+    border-color: #ca9f21;
+}
+
+.plan.plan-120 {
+    background: rgb(167,207,223);
+    background: -moz-linear-gradient(left, rgba(167,207,223,1) 0%, rgba(35,83,138,1) 100%);
+    background: -webkit-linear-gradient(left, rgba(167,207,223,1) 0%,rgba(35,83,138,1) 100%);
+    background: linear-gradient(to right, rgba(167,207,223,1) 0%,rgba(35,83,138,1) 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#a7cfdf', endColorstr='#23538a',GradientType=1 );
+}
+
+.plan.plan-120 button {
+    color: #fff;
+    background-color: #1e436d;
+    border-color: #1e4167;
+}
+
+/* ---------------------------------
+    Simulator
+------------------------------------*/
+
+.form-control {
+    border-radius: 0; 
+}
+
+#simulator-result, #simulator-result th {
+    text-align: center;
+}
+
+#simulator-result thead {
+    background: #f1f1f1;
+}
+
+.form-control {
+    margin-bottom: 10px;
+}
+
+.btn-accept {
+    background: #ec7f3e;
+    color: #fff;
+    border-radius: 3px;
+    float: right;
+}
+
+.btn-accept:hover {
+    color: #f9f9f9;
+}
+
+/* ---------------------------------
+    Regulator
+------------------------------------*/
+
+.regulamento {
+    color: #666;
+}
+
+/* ---------------------------------
+    Footer
+------------------------------------*/
+
+.footer {
+    height: 60px;
+    background-color: #333;
+    color: #bbb;
+    border-top: 1px solid #ddd;
+    padding-top: 20px;
+}
+
+.footer .dev-name {
+    color: #3993CB;
+}
